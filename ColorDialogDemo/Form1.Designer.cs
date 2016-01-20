@@ -45,7 +45,7 @@
             // 
             // colorButton
             // 
-            this.colorButton.Location = new System.Drawing.Point(66, 92);
+            this.colorButton.Location = new System.Drawing.Point(66, 84);
             this.colorButton.Name = "colorButton";
             this.colorButton.Size = new System.Drawing.Size(99, 23);
             this.colorButton.TabIndex = 1;

@@ -55,5 +55,14 @@ namespace AdvancedControls
             greenToolStripMenuItem.Checked = false;
 
         }
+
+        private void openFileToolStripButton_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            if(openFileDialog.ShowDialog()==DialogResult.OK )
+            {
+                MessageBox.Show(openFileDialog.FileName);
+            }
+        }
     }
 }
